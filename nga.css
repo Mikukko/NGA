@@ -1,0 +1,5 @@
+/*隐藏版面抬头的一些内容*/
+#toptopics,
+#sub_forums{
+    display: none; 
+}
