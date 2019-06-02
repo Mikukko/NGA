@@ -1,13 +1,3 @@
-/*
- * NGA 帖子新窗口打开
- * 所有链接都在新窗口打开：
- * <head>
- *  <base target = "_blank">
- * </head>
- * 特定链接在新窗口打开：
- * <a href = "http://" target = "_blank"></a>
- */
-
 // ==UserScript==
 // @name         NGA版面优化
 // @namespace    http://tampermonkey.net/
@@ -65,15 +55,3 @@
         }
     }
 })();
-
-/*第二种方式
-(function(){
-    var topicrows = document.getElementById("topicrows");
-    var tds = topicrows.getElementsByClassName("c2");
-    for(var i = 0;i < tds.length;i++){
-        var td_as = tds[i].getElementsByTagName("a");
-        for(var j = 0;j < td_as.length;j++){
-            td_as[j].setAttribute("target","_blank");
-        }
-    }
-})();*/
