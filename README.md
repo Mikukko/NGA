@@ -1,5 +1,5 @@
 # NGA
-针对NGA网事杂谈版块的JS脚本
+针对NGA网事杂谈版块界面优化
 
 使用要求：TamperMonkey扩展，Stylish扩展
 
