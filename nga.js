@@ -26,11 +26,10 @@
     }
 
     if (collapse) {
-        //折叠公告div
-        var tr = document.getElementsByTagName("table")[2]
-                         .getElementsByTagName("tr")[0];
-        var td = tr.getElementsByTagName("td")[0];
-        tr.removeChild(td);
+//         var tr = document.getElementsByTagName("table")[2]
+//                          .getElementsByTagName("tr")[0];
+//         var td = tr.getElementsByTagName("td")[0];
+//         tr.removeChild(td);
         //抬头div标签默认隐藏，点击展开
         var top = document.getElementById("toptopics");
         top.style.display = "none";
